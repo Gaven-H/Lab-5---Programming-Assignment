@@ -69,4 +69,7 @@ while True:
 
     while True:
         user_choice = input("\nRoll the Dice again? (Y/N): ").upper()
-        
+        if user_choice == 'Y' or user_choice == 'N':
+            break
+        else:
+            print("Invalid input. Please enter 'Y' or 'N'.")
