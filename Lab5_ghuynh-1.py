@@ -55,3 +55,6 @@ def dice_roll_term(die1, die2):
         return "No Special Terms"
 
 while True:
+    die1 = random.randint(1,6)
+    die2 = random.randint(1,6)
+    total = die1 + die2
