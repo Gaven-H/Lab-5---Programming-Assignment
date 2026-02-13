@@ -63,3 +63,6 @@ while True:
     print("First Throw:", die1)
     print("Second Throw:", die2)
     print("Dice Sum:", total)
+
+    term = dice_roll_term(die1, die2)
+    print("Dice Term:", term)
