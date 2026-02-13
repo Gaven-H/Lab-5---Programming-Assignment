@@ -73,3 +73,7 @@ while True:
             break
         else:
             print("Invalid input. Please enter 'Y' or 'N'.")
+    
+    if user_choice == 'N':
+        print("Thanks for playing my game!")
+        break
