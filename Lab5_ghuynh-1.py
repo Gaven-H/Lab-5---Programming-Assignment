@@ -21,5 +21,8 @@ def dice_roll_term(die1, die2):
     elif die1 == 2 and die2 == 2:
         return "Little Joe from Kokomo"
     
-    elif (die1 == 1 and die2 == 4) or (die1 == 3 and die2 == 2):
+    elif (die1 == 1 and die2 == 4) or (die1 == 4 and die2 == 1):
+        return "Little Phoebe"
+    
+    elif (die1 == 2 and die2 3) or (die1 == 3 and die2 == 2):
         return "Little Phoebe"
