@@ -58,3 +58,8 @@ while True:
     die1 = random.randint(1,6)
     die2 = random.randint(1,6)
     total = die1 + die2
+
+    print("\nYou Rolled:")
+    print("First Throw:", die1)
+    print("Second Throw:", die2)
+    print("Dice Sum:", total)
