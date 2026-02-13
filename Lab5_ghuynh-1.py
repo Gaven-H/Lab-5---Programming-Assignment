@@ -9,3 +9,7 @@ February 12, 2026
 
 import random
 
+def dice_roll_term(die1, die2):
+    total = die1 + die2
+
+    
