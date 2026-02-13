@@ -32,3 +32,6 @@ def dice_roll_term(die1, die2):
     
     elif (die1 == 6 and die2 == 1) or (die1 == 1 and die2 == 6):
         return "Six Ace"
+    
+    elif die1 == 4 and die2 == 4:
+        return "Eighter from Decatur"
