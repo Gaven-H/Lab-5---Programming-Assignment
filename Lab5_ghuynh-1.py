@@ -66,3 +66,7 @@ while True:
 
     term = dice_roll_term(die1, die2)
     print("Dice Term:", term)
+
+    while True:
+        user_choice = input("\nRoll the Dice again? (Y/N): ").upper()
+        
