@@ -53,3 +53,5 @@ def dice_roll_term(die1, die2):
     
     else:
         return "No Special Terms"
+
+while True:
