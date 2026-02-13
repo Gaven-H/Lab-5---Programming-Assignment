@@ -12,7 +12,7 @@ import random
 def dice_roll_term(die1, die2):
     total = die1 + die2
 
-    if die1 == 1 and die == 1:
+    if die1 == 1 and die2 == 1:
         return "Snake Eyes"
     
     
