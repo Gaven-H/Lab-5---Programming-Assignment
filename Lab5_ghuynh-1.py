@@ -50,3 +50,6 @@ def dice_roll_term(die1, die2):
     
     elif die1 == 6 and die2 == 6:
         return "Boxcars"
+    
+    else:
+        return "No Special Terms"
