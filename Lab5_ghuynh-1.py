@@ -17,3 +17,6 @@ def dice_roll_term(die1, die2):
     
     elif (die1 == 1 and die2 == 2) or (die1 == 2 and die2 == 1):
         return "Ace Caught a Deuce"
+    
+    elif die1 == 2 and die2 == 2:
+        return "Little Joe from Kokomo"
