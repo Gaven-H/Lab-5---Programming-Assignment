@@ -29,3 +29,6 @@ def dice_roll_term(die1, die2):
     
     elif die1 == 3 and die2 == 3:
         return "Jimmy Hicks from the Sticks"
+    
+    elif (die1 == 6 and die2 == 1) or (die1 == 1 and die2 == 6):
+        return "Six Ace"
