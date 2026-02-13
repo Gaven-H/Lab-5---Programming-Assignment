@@ -15,4 +15,5 @@ def dice_roll_term(die1, die2):
     if die1 == 1 and die2 == 1:
         return "Snake Eyes"
     
-    
+    elif (die1 == 1 and die2 == 2) or (die1 == 2 and die2 == 1):
+        return "Ace Caught a Deuce"
