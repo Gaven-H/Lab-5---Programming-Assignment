@@ -41,3 +41,6 @@ def dice_roll_term(die1, die2):
     
     elif (die1 == 4 and die2 == 5) or (die1 == 5 and die2 == 4):
         return "Nina from Pasadena"
+    
+    elif die1 == 5 and die2 == 5:
+        return "Puppy Paws"
